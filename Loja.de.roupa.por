@@ -21,12 +21,19 @@ programa
 		valorDesconto = precoProduto * 0.10
 		valorFinal = precoProduto - valorDesconto
 		
-		// Exibicao do comprovante
-		escreva("\n=== COMPROVANTE DE COMPRA ===\n")
-		escreva("Cliente: ", nomeCliente, "\n")
-		escreva("Produto: ", nomeProduto, "\n")
-		escreva("Valor original: R$ ", precoProduto, "\n")
-		escreva("Desconto (10%): R$ ", valorDesconto, "\n")
-		escreva("Total a pagar: R$ ", valorFinal, "\n")
-	}
+// Exibicao do comprovante
+escreva("\n=== COMPROVANTE DE COMPRA ===\n")
+escreva("Cliente: ", nomeCliente, "\n")
+escreva("Produto: ", nomeProduto, "\n")
+escreva("Quantidade: ", quantidade, "\n") // NOVO
+escreva("Preco por peca: R$ ", precoProduto, "\n") // ALTERADO
+escreva("Valor do desconto: R$ ", valorDesconto, "\n") // ALTERADO
+escreva("Total a pagar: R$ ", valorFinal, "\n")
+
+// Finalizacao
+escreva("\nCompra finalizada!\n")
+escreva("Obrigado pela compra, ", nomeCliente, "!")
+escreva("\nVolte sempre!")
+}
+
 }
