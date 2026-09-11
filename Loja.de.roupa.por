@@ -17,7 +17,7 @@ programa
 		escreva("Preco da peca (R$): ")
 		leia(precoProduto)
 		
-		// Aplicacao de desconto fixo de 10%
+		// Aplicacao de desconto fixo de 15%
 		valorDesconto = precoProduto * 0.10
 		valorFinal = precoProduto - valorDesconto
 		
