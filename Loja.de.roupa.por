@@ -18,7 +18,7 @@ programa
 		leia(precoProduto)
 		
 		// Aplicacao de desconto fixo de 15%
-		valorDesconto = precoProduto * 0.10
+		valorDesconto = precoProduto * 0.15
 		valorFinal = precoProduto - valorDesconto
 		
 // Exibicao do comprovante
